@@ -39,6 +39,7 @@
 			<Item Name="play ground.vi" Type="VI" URL="../sub vi/test_/play ground.vi"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="GUI control.ctl" Type="VI" URL="../sub vi/gui event/GUI control.ctl"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

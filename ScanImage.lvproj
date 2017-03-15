@@ -24,6 +24,7 @@
 			<Item Name="Calculate AI param.vi" Type="VI" URL="../sub vi/ai/Calculate AI param.vi"/>
 			<Item Name="Generate DO waveform.vi" Type="VI" URL="../sub vi/do/Generate DO waveform.vi"/>
 			<Item Name="reshape data.vi" Type="VI" URL="../sub vi/imaging/reshape data.vi"/>
+			<Item Name="arange.vi" Type="VI" URL="../sub vi/ao/arange.vi"/>
 		</Item>
 		<Item Name="controls" Type="Folder">
 			<Item Name="init-status.ctl" Type="VI" URL="../sub vi/init &amp; communication/init-status.ctl"/>
@@ -33,13 +34,13 @@
 			<Item Name="event-package.ctl" Type="VI" URL="../sub vi/init &amp; communication/event-package.ctl"/>
 			<Item Name="Imaging State.ctl" Type="VI" URL="../sub vi/imaging/Imaging State.ctl"/>
 			<Item Name="Event.ctl" Type="VI" URL="../sub vi/init &amp; communication/Event.ctl"/>
+			<Item Name="GUI control.ctl" Type="VI" URL="../sub vi/gui event/GUI control.ctl"/>
 		</Item>
 		<Item Name="test_" Type="Folder">
 			<Item Name="DO CO.vi" Type="VI" URL="../sub vi/test_/DO CO.vi"/>
 			<Item Name="play ground.vi" Type="VI" URL="../sub vi/test_/play ground.vi"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="GUI control.ctl" Type="VI" URL="../sub vi/gui event/GUI control.ctl"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

@@ -25,6 +25,7 @@
 			<Item Name="Generate DO waveform.vi" Type="VI" URL="../sub vi/do/Generate DO waveform.vi"/>
 			<Item Name="reshape data.vi" Type="VI" URL="../sub vi/imaging/reshape data.vi"/>
 			<Item Name="arange.vi" Type="VI" URL="../sub vi/ao/arange.vi"/>
+			<Item Name="Tiff saver.vi" Type="VI" URL="../sub vi/imaging/Tiff saver.vi"/>
 		</Item>
 		<Item Name="controls" Type="Folder">
 			<Item Name="init-status.ctl" Type="VI" URL="../sub vi/init &amp; communication/init-status.ctl"/>
@@ -42,7 +43,6 @@
 			<Item Name="IMAQ-test.vi" Type="VI" URL="../sub vi/test_/IMAQ-test.vi"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="Tiff saver.vi" Type="VI" URL="../sub vi/imaging/Tiff saver.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

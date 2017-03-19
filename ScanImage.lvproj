@@ -39,9 +39,10 @@
 		<Item Name="test_" Type="Folder">
 			<Item Name="DO CO.vi" Type="VI" URL="../sub vi/test_/DO CO.vi"/>
 			<Item Name="play ground.vi" Type="VI" URL="../sub vi/test_/play ground.vi"/>
+			<Item Name="IMAQ-test.vi" Type="VI" URL="../sub vi/test_/IMAQ-test.vi"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="IMAQ-test.vi" Type="VI" URL="../sub vi/test_/IMAQ-test.vi"/>
+		<Item Name="Tiff saver.vi" Type="VI" URL="../sub vi/imaging/Tiff saver.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

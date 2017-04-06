@@ -26,6 +26,13 @@
 			<Item Name="reshape data.vi" Type="VI" URL="../sub vi/imaging/reshape data.vi"/>
 			<Item Name="arange.vi" Type="VI" URL="../sub vi/ao/arange.vi"/>
 			<Item Name="Tiff saver.vi" Type="VI" URL="../sub vi/imaging/Tiff saver.vi"/>
+			<Item Name="Initialize gain.vi" Type="VI" URL="../sub vi/gui event/Initialize gain.vi"/>
+			<Item Name="normalize pixel.vi" Type="VI" URL="../sub vi/imaging/normalize pixel.vi"/>
+			<Item Name="Refresh CO Terminal.vi" Type="VI" URL="../sub vi/init &amp; communication/Refresh CO Terminal.vi"/>
+			<Item Name="User2Formal setting.vi" Type="VI" URL="../sub vi/init &amp; communication/User2Formal setting.vi"/>
+			<Item Name="calculate new center voltage.vi" Type="VI" URL="../sub vi/gui event/calculate new center voltage.vi"/>
+			<Item Name="update center voltage.vi" Type="VI" URL="../sub vi/gui event/update center voltage.vi"/>
+			<Item Name="Generate DO channel name.vi" Type="VI" URL="../sub vi/init &amp; communication/Generate DO channel name.vi"/>
 		</Item>
 		<Item Name="controls" Type="Folder">
 			<Item Name="init-status.ctl" Type="VI" URL="../sub vi/init &amp; communication/init-status.ctl"/>
@@ -36,11 +43,15 @@
 			<Item Name="Imaging State.ctl" Type="VI" URL="../sub vi/imaging/Imaging State.ctl"/>
 			<Item Name="Event.ctl" Type="VI" URL="../sub vi/init &amp; communication/Event.ctl"/>
 			<Item Name="GUI control.ctl" Type="VI" URL="../sub vi/gui event/GUI control.ctl"/>
+			<Item Name="Setting-User input.ctl" Type="VI" URL="../sub vi/init &amp; communication/Setting-User input.ctl"/>
+			<Item Name="GUI State.ctl" Type="VI" URL="../sub vi/gui event/GUI State.ctl"/>
+			<Item Name="cursors positions.ctl" Type="VI" URL="../sub vi/gui event/cursors positions.ctl"/>
 		</Item>
 		<Item Name="test_" Type="Folder">
 			<Item Name="DO CO.vi" Type="VI" URL="../sub vi/test_/DO CO.vi"/>
 			<Item Name="play ground.vi" Type="VI" URL="../sub vi/test_/play ground.vi"/>
 			<Item Name="IMAQ-test.vi" Type="VI" URL="../sub vi/test_/IMAQ-test.vi"/>
+			<Item Name="Counter output test.vi" Type="VI" URL="../sub vi/test_/Counter output test.vi"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
@@ -324,6 +335,9 @@
 				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
 				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
 				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="DAQmx Reset Device.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/system.llb/DAQmx Reset Device.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -336,6 +350,7 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>

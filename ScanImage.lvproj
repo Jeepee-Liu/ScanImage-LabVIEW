@@ -33,6 +33,9 @@
 			<Item Name="calculate new center voltage.vi" Type="VI" URL="../sub vi/gui event/calculate new center voltage.vi"/>
 			<Item Name="update center voltage.vi" Type="VI" URL="../sub vi/gui event/update center voltage.vi"/>
 			<Item Name="Generate DO channel name.vi" Type="VI" URL="../sub vi/init &amp; communication/Generate DO channel name.vi"/>
+			<Item Name="event queue parser.vi" Type="VI" URL="../sub vi/init &amp; communication/event queue parser.vi"/>
+			<Item Name="generate indexed directories.vi" Type="VI" URL="../sub vi/imaging/generate indexed directories.vi"/>
+			<Item Name="Calculate time.vi" Type="VI" URL="../sub vi/imaging/Calculate time.vi"/>
 		</Item>
 		<Item Name="controls" Type="Folder">
 			<Item Name="init-status.ctl" Type="VI" URL="../sub vi/init &amp; communication/init-status.ctl"/>
@@ -52,8 +55,13 @@
 			<Item Name="play ground.vi" Type="VI" URL="../sub vi/test_/play ground.vi"/>
 			<Item Name="IMAQ-test.vi" Type="VI" URL="../sub vi/test_/IMAQ-test.vi"/>
 			<Item Name="Counter output test.vi" Type="VI" URL="../sub vi/test_/Counter output test.vi"/>
+			<Item Name="vi ref test.vi" Type="VI" URL="../sub vi/test_/vi ref test.vi"/>
+			<Item Name="laser test.vi" Type="VI" URL="../sub vi/test_/laser test.vi"/>
+			<Item Name="conv.vi" Type="VI" URL="../sub vi/test_/conv.vi"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="main_0_1.vi" Type="VI" URL="../main_0_1.vi"/>
+		<Item Name="Filtering.vi" Type="VI" URL="../sub vi/imaging/Filtering.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -338,6 +346,7 @@
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="DAQmx Reset Device.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/system.llb/DAQmx Reset Device.vi"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

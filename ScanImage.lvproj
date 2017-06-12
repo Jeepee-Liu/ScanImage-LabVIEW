@@ -36,6 +36,7 @@
 			<Item Name="event queue parser.vi" Type="VI" URL="../sub vi/init &amp; communication/event queue parser.vi"/>
 			<Item Name="generate indexed directories.vi" Type="VI" URL="../sub vi/imaging/generate indexed directories.vi"/>
 			<Item Name="Calculate time.vi" Type="VI" URL="../sub vi/imaging/Calculate time.vi"/>
+			<Item Name="Filtering.vi" Type="VI" URL="../sub vi/imaging/Filtering.vi"/>
 		</Item>
 		<Item Name="controls" Type="Folder">
 			<Item Name="init-status.ctl" Type="VI" URL="../sub vi/init &amp; communication/init-status.ctl"/>
@@ -61,7 +62,6 @@
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="main_0_1.vi" Type="VI" URL="../main_0_1.vi"/>
-		<Item Name="Filtering.vi" Type="VI" URL="../sub vi/imaging/Filtering.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -347,6 +347,9 @@
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="DAQmx Reset Device.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/system.llb/DAQmx Reset Device.vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="RemoveNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/RemoveNamedRendezvousPrefix.vi"/>
+				<Item Name="Destroy A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy A Rendezvous.vi"/>
+				<Item Name="Destroy Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy Rendezvous.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

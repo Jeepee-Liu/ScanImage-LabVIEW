@@ -1,0 +1,16 @@
+
+打开桌面的Git shell
+
+移动到项目文件夹下：
+	
+	cd d:\ (回车)
+
+	cd Zhiping\ScanImage-LabVIEW (回车)
+
+将新版本add、commit
+
+	git add .
+
+	git commit -m "这次提交的修改的概要"
+
+备份完成
